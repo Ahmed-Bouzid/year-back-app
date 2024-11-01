@@ -5,8 +5,6 @@ const year = today.getFullYear();
 
 /* GET users listing. */
 router.get("/", function (req, res, next) {
-  console.log(year);
-
   res.json({ Year: year.toString() });
 });
 
